@@ -64,7 +64,7 @@
           <div class="content">
             <p class="menu-item">Chicken Salad with Parmesan</p>
             <p class="price">$6.98</p>
-            <button class="add" onclick=addToMenu(4)>Add to Cart</button>
+            <button class="add" id="4" onclick=addToMenu(4)>Add to Cart</button>
           </div>
         </li>
         <li>
@@ -74,7 +74,7 @@
           <div class="content">
             <p class="menu-item">Fish Sticks and Fries</p>
             <p class="price">$6.34</p>
-            <button class="add" id="4" onclick=addToMenu(5)>Add to Cart</button>
+            <button class="add" id="5" onclick=addToMenu(5)>Add to Cart</button>
           </div>
         </li>
       </ul>
@@ -82,13 +82,13 @@
 
     <div class="panel cart">
       <h1>Your Cart</h1>
-      <p class="empty">Your cart is empty.</p>
+      <p class="empty" id="emptyCart">Your cart is empty.</p>
 
-      <ul class="cart-summary">
-
+      <ul class="cart-summary" id="chosenDishes">
+        
         <!-- item 1 -->
         
-
+      </ul>  
       <div class="totals">
         <div class="line-item">
           <div class="label">Subtotal:</div>
